@@ -1,0 +1,20 @@
+.Clock {
+  width: 350px;
+  height: 350px;
+  box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.3);
+  top: 45%;
+  left: 50%;
+  position: relative;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  background: #ec008c;
+  background: linear-gradient(to right, #fc6767, #ec008c);
+}
+
+h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
